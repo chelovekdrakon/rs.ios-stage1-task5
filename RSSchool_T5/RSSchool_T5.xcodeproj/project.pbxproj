@@ -10,6 +10,8 @@
 		25787FEA243F8E7B0066701D /* PNConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25787FE6243F8E7B0066701D /* PNConverterTests.m */; };
 		25943E76245B030B008FF836 /* Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = 25943E73245B030B008FF836 /* Converter.m */; };
 		25943E77245B030B008FF836 /* PhoneNumberConverter.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 25943E74245B030B008FF836 /* PhoneNumberConverter.pdf */; };
+		3278CBF3245EFE20009F3230 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3278CBF2245EFE20009F3230 /* MainViewController.m */; };
+		3278CBF6245EFE55009F3230 /* NSPhoneFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3278CBF5245EFE55009F3230 /* NSPhoneFormatter.m */; };
 		BD47B5532268ED9F0060BDF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD47B5522268ED9F0060BDF3 /* AppDelegate.m */; };
 		BD47B5552268EDA10060BDF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD47B5542268EDA10060BDF3 /* Assets.xcassets */; };
 		BD47B5582268EDA10060BDF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD47B5562268EDA10060BDF3 /* LaunchScreen.storyboard */; };
@@ -33,6 +35,10 @@
 		25943E73245B030B008FF836 /* Converter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Converter.m; sourceTree = "<group>"; };
 		25943E74245B030B008FF836 /* PhoneNumberConverter.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PhoneNumberConverter.pdf; sourceTree = "<group>"; };
 		25943E75245B030B008FF836 /* Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Converter.h; sourceTree = "<group>"; };
+		3278CBF1245EFE20009F3230 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3278CBF2245EFE20009F3230 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3278CBF4245EFE55009F3230 /* NSPhoneFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSPhoneFormatter.h; sourceTree = "<group>"; };
+		3278CBF5245EFE55009F3230 /* NSPhoneFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSPhoneFormatter.m; sourceTree = "<group>"; };
 		BD47B54E2268ED9F0060BDF3 /* RSSchool_T5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSchool_T5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD47B5512268ED9F0060BDF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BD47B5522268ED9F0060BDF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -103,6 +109,10 @@
 				25787FCD243F8E5F0066701D /* 1 */,
 				BD47B5512268ED9F0060BDF3 /* AppDelegate.h */,
 				BD47B5522268ED9F0060BDF3 /* AppDelegate.m */,
+				3278CBF1245EFE20009F3230 /* MainViewController.h */,
+				3278CBF2245EFE20009F3230 /* MainViewController.m */,
+				3278CBF4245EFE55009F3230 /* NSPhoneFormatter.h */,
+				3278CBF5245EFE55009F3230 /* NSPhoneFormatter.m */,
 				BD47B5542268EDA10060BDF3 /* Assets.xcassets */,
 				BD47B5562268EDA10060BDF3 /* LaunchScreen.storyboard */,
 				BD47B5592268EDA10060BDF3 /* Info.plist */,
@@ -219,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3278CBF6245EFE55009F3230 /* NSPhoneFormatter.m in Sources */,
 				25943E76245B030B008FF836 /* Converter.m in Sources */,
 				BD47B55B2268EDA10060BDF3 /* main.m in Sources */,
 				BD47B5532268ED9F0060BDF3 /* AppDelegate.m in Sources */,
+				3278CBF3245EFE20009F3230 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
